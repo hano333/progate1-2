@@ -1,0 +1,48 @@
+/* タブレット向けレイアウト */
+
+/*
+1 やること言語化
+  タブレット
+    フォントサイズ変更
+  モバイル
+    フォントサイズ変更
+    左揃え
+    ボタン幅変更
+    余白追加
+*/
+@media all and (max-width: 1000px) {
+  .top-wrapper h1 {
+    font-size: 32px;
+  }
+}
+
+/* モバイル向けレイアウト */
+@media all and (max-width: 670px) {
+  .header-right {
+    display: none;
+  }
+  
+  .menu-icon {
+    display: block;
+  }
+  
+  .top-wrapper .btn {
+    width: 100%;
+  }
+
+  .facebook {
+    margin-bottom: 10px;
+  }
+  
+  .top-wrapper {
+    text-align: left;
+  }
+  
+  .top-wrapper h1 {
+    font-size: 24px;
+  }
+
+  .top-wrapper p {
+    font-size: 14px;
+  }
+}
